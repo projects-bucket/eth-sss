@@ -48,4 +48,8 @@ class WalletTransferHandler {
 
     return completer.future;
   }
+
+  String? getPrivateKey() {
+    return _configurationService.getPrivateKey();
+  }
 }

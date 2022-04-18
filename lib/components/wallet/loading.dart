@@ -13,6 +13,10 @@ class Loading extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
             Text(
+              'Private key Signed in successfully',
+              textAlign: TextAlign.center,
+            ),
+            Text(
               'Your transaction is being processed',
               textAlign: TextAlign.center,
             ),
